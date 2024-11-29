@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract degenToken is ERC20 {
     address private admin;
 
-    uint256 private constant MAX_SUPPLY = 500000;
+    uint256 private constant MAX_SUPPLY = 300000;
 
     event TokenMinted(address indexed recipient, uint256 amount);
     event TokenBurned(address indexed burner, uint256 amount);
