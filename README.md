@@ -1,5 +1,3 @@
-# Generate the README file content as a string
-readme_content = """
 # DegenToken Smart Contract
 
 **DegenToken** (`DGN`) is an ERC20-compliant token designed for managing a maximum-supply cryptocurrency. This contract enables minting, burning, and transferring tokens, enforcing a strict cap to ensure token scarcity.
